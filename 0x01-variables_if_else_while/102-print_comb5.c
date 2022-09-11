@@ -1,14 +1,15 @@
 #include <stdio.h>
+
 /**
- * main - Prints all possible combinations of a pair of
- * two digit numbers, without any repetition.
-(*
- * Return: 0 on success.
+ * main - Entry Point
+ * 
+ * Return: Always 0 Success.
  */
 
 int main(void)
 {
-	int i, j;
+	int i;
+	int j;
 
 	for (i = 0; i <= 99; i++)
 	{
