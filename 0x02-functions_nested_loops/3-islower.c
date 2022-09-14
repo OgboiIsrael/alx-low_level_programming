@@ -8,8 +8,6 @@
 
 int _islower(int c)
 {
-	char a;
-
 	if (a >= 'a' && a <= 'z')
 	{
 		c = 1;
