@@ -18,19 +18,23 @@ int main(void)
 
 		if (j == 0 && k == 0)
 		{
-			printf("FizzBuzz ");
+			printf("FizzBuzz");
 		}
 		if (j == 0 && k > 0)
 		{
-			printf("Fizz ");
+			printf("Fizz");
 		}
 		if (k == 0 && j > 0)
 		{
-			printf("Buzz ");
+			printf("Buzz");
 		}
 		if (k > 0 && j > 0)
 		{
-			printf("%d ", n);
+			printf("%d", n);
+		}
+		if (n != 100)
+		{
+			putchar(' ');
 		}
 
 	}
